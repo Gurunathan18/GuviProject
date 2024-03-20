@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding: 30px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #41bbda, #2364dd, #4709da);
+    border-radius: 30px;
+    box-shadow: black;
+}
+td {
+    padding: 5px; 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr:first-child>
+td:nth-child(2){
+    text-transform: capitalize;
+}
+
+td:last-child {
+    text-align: left;
+}
